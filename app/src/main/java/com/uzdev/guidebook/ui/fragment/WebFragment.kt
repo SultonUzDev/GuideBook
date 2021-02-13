@@ -22,7 +22,7 @@ class WebFragment : Fragment(R.layout.fragment_web) {
         val link = BASE_URL + args.data.url
         Log.d("link", link)
 
-
+// sadsadsd
 
         binding.webView.apply {
             settings.javaScriptEnabled = true
